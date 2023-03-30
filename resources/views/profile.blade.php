@@ -22,23 +22,54 @@
     </li>
   </ul>
 
-    <div class="jumbotron" id="home">
-      <div class="container">
-        <div class="text-center">
-          <img src="img/face.jpg" width="200px" class="rounded-circle img-thumbnail">
+    <div class="container">
+      <div class="row">
+        <div class="blc">
+          <img src="img/face.jpg" width="350px">
+        </div>
+        <div class="blc blc-text">
           <h1 class="display-4">Denio Pranatha</h1>
           <h3 class="lead">College Student | Graphic Designer</h3>
         </div>
       </div>
     </div>
 
-    <div class="jumbotron text-center">
+
+    <div class="jumbotron1 text-center">
       <h1 class="display-4">About</h1>
       <p class="lead">Energetic and inventive college student with superb problem-solving, communication, and analytical abilities. Seeking carreer advancement in computer science and engineering field. Over the span of 5 years, I participated in science community, exchange study, and several invention festivals</p>
       <hr class="my-4">
     </div>
 
-    
+    <div class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+        <h1 class="display-4">Portfolio</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+
+      </div>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/face.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/face.jpg" alt="Second slide" >
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/face.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
 </body>
 </html>
