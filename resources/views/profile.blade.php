@@ -52,23 +52,49 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="d-block w-100" src="img/face.jpg" alt="First slide">
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/face.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Number 1..</p>
+            </div>
+          </div>
+
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="img/face.jpg" alt="Second slide" >
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/face.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Number 2...</p>
+            </div>
+          </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100" src="img/face.jpg" alt="Third slide">
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/face.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Number 3...</p>
+            </div>
+          </div>
+
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+        <span class="sr-only"></span>
       </a>
       <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span class="sr-only"></span>
       </a>
+    </div>
+
+    <div class="jumbotron2 text-center">
+      <h1 class="display-4">About</h1>
+      <p class="lead">Energetic and inventive college student with superb problem-solving, communication, and analytical abilities. Seeking carreer advancement in computer science and engineering field. Over the span of 5 years, I participated in science community, exchange study, and several invention festivals</p>
+      <hr class="my-4">
     </div>
 
 </body>

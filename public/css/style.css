@@ -9,6 +9,13 @@
 
 .jumbotron1{
     background-color: #C0EEF2;
+    padding: 20px 0 20px 0;
+    text-decoration-color: #C0EEF2;
+}
+
+.jumbotron2{
+    background-color: #181823;
+    padding: 20px 0 20px 0;
 }
 
 .active{
@@ -39,4 +46,15 @@
     align-items: center;
     flex-direction: column;
     padding-bottom: 40px;
+}
+
+.carousel-inner{
+    display: flex;
+}
+
+.carousel-item{
+    display: block;
+    flex: 0 0 33%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
