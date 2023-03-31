@@ -29,6 +29,7 @@
 }
 
 .jumbotron2{
+    margin-top: 100px;
     background-color: #181823;
     padding: 20px;
     text-decoration-color: #E9F8F9;
@@ -39,7 +40,9 @@
     padding: 20px 0 20px 0;
     margin-bottom: 100px;
     margin-top: 75px;
-    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -131,14 +134,13 @@
 }
 
 .org-container img{
-    margin: 24px 24px 100px 24px;
+    margin: 24px 24px 24px 24px;
     
 }
 
 .bar-cont{
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     padding: 20px 75px 20px 75px;
     justify-content:left;
     align-items: center;
@@ -148,10 +150,13 @@
 .bar-capt{
     width: 8vw;
     text-align: left;
-    border: 1px solid black;
 }
 
 .progress{
     width: 50vw;
+    background-color: white;
 }
 
+.progress-bar{
+    background-color: #537FE7;
+}
