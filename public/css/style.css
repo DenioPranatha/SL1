@@ -1,6 +1,8 @@
+
 .nav{
     /* background-color: #181823;
      */
+     font-size: larger;
 }
 
 .jumbotron{
@@ -10,12 +12,22 @@
 .jumbotron1{
     background-color: #C0EEF2;
     padding: 20px 0 20px 0;
-    text-decoration-color: #C0EEF2;
 }
 
 .jumbotron2{
     background-color: #181823;
     padding: 20px 0 20px 0;
+}
+
+.jumbotron3{
+    background-color: #C0EEF2;
+    padding: 20px 0 20px 0;
+    margin-bottom: 100px;
+    margin-top: 75px;
+}
+
+.jumbotron2{
+    text-decoration-color: #E9F8F9;
 }
 
 .active{
@@ -25,19 +37,40 @@
 
 .display-4{
     font-weight: 150;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Tinos', serif;
+    
+}
+
+.lead{
+    padding-top: 0;
 }
 
 .row{
     /* border: 2px solid #000000; */
     display: flex;
     flex-direction: row;
-    padding-top: 25px;
+    padding-top: 40px;
     padding-bottom: 50px;
+    justify-content: center;
+}
+
+.bold{
+    font-weight: 400;
 }
 
 .blc{
     /* border: 1px solid #000000; */
-    width: 350px;
+    width: 30vw;
+}
+
+.im{
+    text-align: center;
+    margin-right: 55px;
+}
+
+.ent{
+    padding-top: 35px;
 }
 
 .blc-text{

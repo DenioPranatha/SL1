@@ -6,6 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+      </style>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <title>Denio's Web</title>
 </head>
@@ -24,12 +30,13 @@
 
     <div class="container">
       <div class="row">
-        <div class="blc">
-          <img src="img/face.jpg" width="350px">
+        <div class="im blc">
+          <img src="img/face.jpg" width="360px" class="center">
         </div>
         <div class="blc blc-text">
           <h1 class="display-4">Denio Pranatha</h1>
-          <h3 class="lead">College Student | Graphic Designer</h3>
+          <h3 class="bold lead mt-0">College Student | Graphic Designer</h3>
+          <h3 class="lead ent">"Whatever you are, be a good one"</h3>
         </div>
       </div>
     </div>
@@ -37,7 +44,7 @@
 
     <div class="jumbotron1 text-center">
       <h1 class="display-4">About</h1>
-      <p class="lead">Energetic and inventive college student with superb problem-solving, communication, and analytical abilities. Seeking carreer advancement in computer science and engineering field. Over the span of 5 years, I participated in science community, exchange study, and several invention festivals</p>
+      <p class="lead">Energetic and inventive college student with superb problem-solving, communication, and analytical abilities. Seeking carreer advancement in computer science and engineering field. Over the span of 5 years, I participated in science community, exchange study, and several invention festivals.</p>
       <hr class="my-4">
     </div>
 
@@ -56,7 +63,8 @@
           <div class="card" style="width: 18rem;">
             <img src="img/face.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Number 1..</p>
+              <p class="card-text">Top 5</p>
+              <p class="card-text">Young Innovation Festival BCA 2022</p>
             </div>
           </div>
 
@@ -66,7 +74,8 @@
           <div class="card" style="width: 18rem;">
             <img src="img/face.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Number 2...</p>
+              <p class="card-text">Software Engineer</p>
+              <p class="card-text">BLI Management Website 2022</p>
             </div>
           </div>
         </div>
@@ -75,7 +84,53 @@
           <div class="card" style="width: 18rem;">
             <img src="img/face.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <p class="card-text">Number 3...</p>
+              <p class="card-text">2nd Place</p>
+              <p class="card-text">Graphic Design Promotion
+                Delaware State BPA 2020</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/face.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Participant</p>
+              <p class="card-text">Kennedy-Lugar Youth Exchange and Study (YES) Program 2019-2020</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/face.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Silver Medal</p>
+              <p class="card-text">Indonesia International Invention Festival (13F) 2019</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/face.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">3rd Place</p>
+              <p class="card-text">TGC In Action Essay Competition IPB University 2018</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+
+          <div class="card" style="width: 18rem;">
+            <img src="img/face.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Class leader</p>
+              <p class="card-text">The 2nd Term of PPTI 12 2021-2022</p>
             </div>
           </div>
 
@@ -91,9 +146,27 @@
       </a>
     </div>
 
-    <div class="jumbotron2 text-center">
-      <h1 class="display-4">About</h1>
-      <p class="lead">Energetic and inventive college student with superb problem-solving, communication, and analytical abilities. Seeking carreer advancement in computer science and engineering field. Over the span of 5 years, I participated in science community, exchange study, and several invention festivals</p>
+    <div class="jumbotron3 text-center">
+      <h1 class="display-4">Organization Involvements</h1>
+      <p class="lead">The organizations in which I have participated</p>
+      <hr class="my-4">
+    </div>
+
+    <div class="jumbotron2">
+      <h1 class="display-4" style="color:white">Denio Pranatha</h1>
+      <p class="lead" style="color:white">Contact</p>
+      <p class="lead" style="color:white">Web design</p>
+      <p class="lead" style="color:white">Logo design</p>
+      <p class="lead" style="color:white">Photography</p>
+      <p class="lead" style="color:white">Pencil sketch</p>
+      <p class="lead" style="color:white">Organization</p>
+      <p class="lead" style="color:white">© 2023 Denio Pranatha. All rights reserved.</p>
+      <hr class="my-4">
+    </div>
+
+    <div class="jumbotron4 text-center">
+      <h1 class="display-4">Social media</h1>
+      <p class="lead">...</p>
       <hr class="my-4">
     </div>
 

@@ -1,5 +1,9 @@
 @charset "UTF-8";
-
+/*!
+ * Bootstrap  v5.3.0-alpha2 (https://getbootstrap.com/)
+ * Copyright 2011-2023 The Bootstrap Authors
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;
@@ -478,7 +482,6 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
-  appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -537,7 +540,6 @@ legend + * {
 [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
-  appearance: textfield;
 }
 
 /* rtl:raw:
@@ -559,7 +561,6 @@ legend + * {
 ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
-  appearance: button;
 }
 
 output {
