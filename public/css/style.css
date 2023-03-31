@@ -1,8 +1,21 @@
-
 .nav{
     /* background-color: #181823;
      */
      font-size: larger;
+}
+
+.wrapper{
+    max-width: 100%;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+
 }
 
 .jumbotron{
@@ -11,7 +24,7 @@
 
 .jumbotron1{
     background-color: #C0EEF2;
-    padding: 20px 0 20px 0;
+    padding: 30px;
 }
 
 .jumbotron2{
@@ -28,6 +41,10 @@
 
 .jumbotron2{
     text-decoration-color: #E9F8F9;
+}
+
+.smaller{
+    font-size: 35px;
 }
 
 .active{
@@ -81,13 +98,15 @@
     padding-bottom: 40px;
 }
 
+
+
 .carousel-inner{
     display: flex;
+    padding: 32px;
 }
 
 .carousel-item{
     display: block;
     flex: 0 0 33%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 16px;
 }
