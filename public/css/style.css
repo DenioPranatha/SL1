@@ -6,7 +6,7 @@
 
 .wrapper{
     max-width: 100%;
-    height: 25vw;
+    height: 23vw;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -98,15 +98,33 @@
     padding-bottom: 40px;
 }
 
-
-
 .carousel-inner{
     display: flex;
-    padding: 32px;
+    padding: 16px;
 }
 
 .carousel-item{
     display: block;
     flex: 0 0 33%;
     margin: 16px;
+}
+
+.card{
+    margin: 8px;
+    border-radius: 0;
+    box-shadow: 2px 6px 8px 0 lightgray;
+}
+
+.carousel-control-prev .carousel-control-next{
+    width: 6vh;
+    height: 6vh;
+    background-color: #181823;
+    border: 50%;
+    top: 50%;
+    opacity: 0.5;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev:hover .carousel-control-next:hover{
+    opacity: 1;
 }

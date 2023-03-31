@@ -12,9 +12,6 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
       </style>
-    <script src="css/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <title>Denio's Web</title>
 </head>
 <body>
@@ -46,7 +43,7 @@
 
     <div class="jumbotron1 text-center">
       <h1 class="display-4 smaller">About</h1>
-      <p class="lead">Energetic and inventive college student with superb problem-solving, communication, and analytical abilities. Seeking carreer advancement in computer science and engineering field. Over the span of 5 years, I participated in science community, exchange study, and several invention festivals.</p>
+      <p class="lead">Energetic and inventive college student with superb problem-solving, communication, and analytical abilities. Seeking carreer advancement in computer science and engineering field. I master backend development programming languages (e.g. PHP and mySQL), data processing languages (e.g. C, python, RStudio, Tableau), and UI/UX design tools (e.g. CSS, Figma, Adobe Illustrator). Over the span of 5 years, I participated in science community, exchange study, and several invention festivals.</p>
     </div>
 
     <div class="jumbotron jumbotron-fluid text-center">
@@ -57,9 +54,9 @@
       </div>
     </div>
 
-    <div id="carouselExample" class="carousel slide">
+    <div id="carouselExample" class="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item">
 
           <div class="card">
             <div class="wrapper">
@@ -182,7 +179,8 @@
       <p class="lead" style="color:white">Organization</p>
       <p class="lead" style="color:white">© 2023 Denio Pranatha. All rights reserved.</p>
     </div>
-
-
-</body>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    </body>
 </html>
