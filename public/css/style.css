@@ -27,20 +27,28 @@ body{
 
 .jumbotron1{
     background-color: #C0EEF2;
-    padding: 30px 75px;
-    margin: 30px 0;
+    padding: 55px 75px;
+    margin: 40px 0;
 }
 
 .jumbotron2{
     margin-top: 100px;
     background-color: #181823;
-    padding: 20px;
+    padding: 36px;
     text-decoration-color: #E9F8F9;
+}
+
+.jumbotron2 .display-4{
+    font-size: x-large;
+}
+
+.jumbotron2 .lead{
+    font-size: medium;
 }
 
 .jumbotron3{
     background-color: #C0EEF2;
-    padding: 20px 0 20px 0;
+    padding: 50px 0 50px 0;
     margin-bottom: 100px;
     margin-top: 75px;
     align-items: center;
@@ -151,17 +159,28 @@ body{
 }
 
 .bar-capt{
-    width: 8vw;
+    width: 14vw;
     text-align: left;
+    font-size: 21px;
 }
 
 .progress{
+    height: 20px;
     width: 50vw;
     background-color: white;
+    border-radius: 8px;
 }
 
 .progress-bar{
     background-color: #537FE7;
+}
+
+.icon-wrapper{
+    padding: 10px;
+}
+
+.icon-wrapper img{
+    width: 25px;
 }
 
 .blue{
@@ -210,6 +229,32 @@ body{
     margin-left: 70vw;
 }
 
+.blue6{
+    width: 175px;
+    height: 175px;
+    z-index: -1;
+    margin-top: -40px;
+    margin-left: 10vw;
+}
+
+.blue7{
+    width: 225px;
+    height: 225px;
+    z-index: -1;
+    margin-top: 10px;
+    margin-left: 75vw;
+}
+
+.blue8{
+    width: 125px;
+    height: 125px;
+    z-index: -1;
+    margin-top: 275px;
+    margin-left: 35vw;
+}
+
 .display5{
     font-family: 'Tinos', serif;
+    font-weight: 700;
+    font-size: large;
 }
