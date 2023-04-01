@@ -4,3 +4,7 @@
 ![view 4](https://github.com/DenioPranatha/SL1/blob/master/public/img/s4.png)
 ![view 5](https://github.com/DenioPranatha/SL1/blob/master/public/img/s5.png)
 ![view 6](https://github.com/DenioPranatha/SL1/blob/master/public/img/s6.png)
+
+Profile Website
+This website contains my profile. It also contains animation, but it couldn't be captured here so here is the link of the web view video:
+https://drive.google.com/file/d/1w8JqIdPVWUuWZ7KdiOfiwV6Pl0ftTPeJ/view?usp=sharing
