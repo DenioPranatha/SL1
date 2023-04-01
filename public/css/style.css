@@ -34,8 +34,39 @@ body{
 .jumbotron2{
     margin-top: 100px;
     background-color: #181823;
-    padding: 36px;
+    padding: 0px;
     text-decoration-color: #E9F8F9;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btm-wrapper1{
+    display: flex;
+    flex-direction: column;
+    height: 175px;
+    justify-content: space-evenly;
+    width: 20vw;
+}
+
+.btm-wrapper2{
+    display: flex;
+    flex-direction: column;
+    height: 175px;
+    justify-content: space-evenly;
+    margin-left: 3px;
+}
+
+.btm-wrapper2 img{
+    width: 26px;
+    cursor: pointer;
+}
+
+.display6{
+    width: 100vw;
+    text-align: center;
+    margin-top: 40px;
 }
 
 .jumbotron2 .display-4{
@@ -249,7 +280,7 @@ body{
     width: 125px;
     height: 125px;
     z-index: -1;
-    margin-top: 275px;
+    margin-top: 265px;
     margin-left: 35vw;
 }
 
@@ -258,3 +289,4 @@ body{
     font-weight: 700;
     font-size: large;
 }
+
