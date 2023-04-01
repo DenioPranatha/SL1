@@ -1,3 +1,7 @@
+body{
+    z-index: 0;
+}
+
 .nav{
     /* background-color: #181823;
      */
@@ -15,7 +19,6 @@
 .wrapper img{
     max-width: 100%;
     max-height: 100%;
-
 }
 
 .jumbotron{
@@ -159,4 +162,54 @@
 
 .progress-bar{
     background-color: #537FE7;
+}
+
+.blue{
+    background-color: #77dde7;
+    opacity: 50%;
+    position: absolute;
+}
+
+.blue1{
+    width: 175px;
+    height: 175px;
+    z-index: 2;
+    margin-top: 270px;
+    margin-left: 15.5vw;
+}
+
+.blue2{
+    width: 140px;
+    height: 140px;
+    z-index: -1;
+    margin-top: 140px;
+    margin-left: 31vw;
+}
+
+.blue3{
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+    margin-top: 80px;
+    margin-left: 14vw;
+}
+
+.blue4{
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    margin-top: 230px;
+    margin-left: 18vw;
+}
+
+.blue5{
+    width: 250px;
+    height: 250px;
+    z-index: -1;
+    margin-top: 0px;
+    margin-left: 70vw;
+}
+
+.display5{
+    font-family: 'Tinos', serif;
 }
