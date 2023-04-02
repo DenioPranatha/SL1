@@ -1,32 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
-    </style>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
-      </style>
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Denio's Web</title>
-</head>
-<body>
-  <ul class="nav nav-underline justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link" href="#">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Profile</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Services</a>
-    </li>
-  </ul>
+@extends('layouts.main')
+
+@section('content')
     <div class="blue blue1" data-aos="slide-right" data-aos-duration="1000"></div>
     <div class="blue blue3" data-aos="slide-right" data-aos-duration="2000"></div>
     <div class="container">
@@ -215,36 +189,5 @@
         <img src="img/pm.png" width="120px" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1600">
       </div>
     </div>
+@endsection
 
-    <div class="jumbotron2">
-      <h1 class="display-4 smaller display6" style="color:white">Denio Pranatha</h1>
-      <div class="btm-wrapper1">
-        <a class="lead" style="color:white; cursor: pointer;">Contact</a>
-        <a class="lead" style="color:white; cursor: pointer;">Web design</a>
-        <a class="lead" style="color:white; cursor: pointer;">Logo design</a>
-      </div>
-      <div class="btm-wrapper1">
-        <a class="lead" style="color:white; cursor: pointer;">Photography</a>
-        <a class="lead" style="color:white; cursor: pointer;">Database management</a>
-        <a class="lead" style="color:white; cursor: pointer;">Organization</a>
-      </div>
-      <div class="btm-wrapper2">
-        <a href="https://www.instagram.com/deniopranatha"><img src="img/ig.png" alt=""></a>
-        <a href="https://www.facebook.com/denniiopranathaa"><img src="img/fb.png" alt=""></a>
-        <a href="https://github.com/DenioPranatha"><img src="img/github.png" alt=""></a>
-      </div>
-      <div class="btm-wrapper2">
-        <div class="lead" style="color:white">deniopranatha</div>
-        <div class="lead" style="color:white">Denio Pranatha</div>
-        <div class="lead" style="color:white">DenioPranatha</div>
-      </div>
-      <p class="lead display6" style="color:white">© 2023 Denio Pranatha. All rights reserved.</p>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    </body>
-</html>
