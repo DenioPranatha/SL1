@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Models\Profile;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,7 +27,8 @@ Route::get('/welcome', function () {
 
 Route::get('/profile', function(){
     return view('profile', [
-        "title" => "Profile"
+        "title" => "Profile",
+        "cards" => Profile::all()
     ]);
 });
 

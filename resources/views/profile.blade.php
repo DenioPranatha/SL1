@@ -36,97 +36,19 @@
 
     <div id="carouselExample" class="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item">
-
-          <div class="card h-100">
-            <div class="wrapper">
-              <img src="img/ynfest.jpeg" alt="...">
-            </div>
-            <div class="card-body text-center">
-              <p class="card-text display5">Top 5</p>
-              <p class="card-text">Young Innovation Festival BCA 2022</p>
-            </div>
-          </div>
-
-        </div>
-        <div class="carousel-item">
-
-          <div class="card h-100">
-            <div class="wrapper">
-              <img src="img/se.jpg" alt="...">
-            </div>
-            <div class="card-body text-center">
-              <p class="card-text display5">Software Engineer</p>
-              <p class="card-text">BLI Management Website 2022</p>
+        @foreach($cards as $card)
+          <div class="carousel-item">
+            <div class="card h-100">
+              <div class="wrapper">
+                <img src="img/{{ $card["dir"] }}" alt="...">
+              </div>
+              <div class="card-body text-center">
+                <p class="card-text display5">{{ $card["title"] }}</p>
+                <p class="card-text">{{ $card["desc"] }}</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="carousel-item">
-
-          <div class="card h-100">
-            <div class="wrapper">
-              <img src="img/komti.jpg" alt="...">
-            </div>
-            <div class="card-body text-center">
-              <p class="card-text display5">Class Leader</p>
-              <p class="card-text">The 2nd Term of PPTI 12 2021-2022</p>
-            </div>
-          </div>
-
-        </div>
-        <div class="carousel-item">
-
-          <div class="card h-100">
-            <div class="wrapper">
-              <img src="img/bpa-comp.jpg" alt="...">
-            </div>
-            <div class="card-body text-center">
-              <p class="card-text display5">2nd Place</p>
-              <p class="card-text">Graphic Design Promotion
-                Delaware State BPA 2020</p>
-            </div>
-          </div>
-
-        </div>
-        <div class="carousel-item">
-
-          <div class="card h-100">
-            <div class="wrapper">
-              <img src="img/yes.jpeg" alt="...">
-            </div>
-            <div class="card-body text-center">
-              <p class="card-text display5">Participant</p>
-              <p class="card-text">Kennedy-Lugar Youth Exchange and Study (YES) Program 2019-2020</p>
-            </div>
-          </div>
-
-        </div>
-        <div class="carousel-item">
-
-          <div class="card h-100">
-            <div class="wrapper">
-              <img src="img/i3f.jpeg" alt="...">
-            </div>
-            <div class="card-body text-center">
-              <p class="card-text display5">Silver Medal</p>
-              <p class="card-text">Indonesia International Invention Festival (13F) 2019</p>
-            </div>
-          </div>
-
-        </div>
-        <div class="carousel-item">
-
-          <div class="card h-100">
-            <div class="wrapper">
-              <img src="img/tgc.jpg" alt="...">
-            </div>
-            <div class="card-body text-center">
-              <p class="card-text display5">3rd Place</p>
-              <p class="card-text">TGC In Action Essay Competition IPB University 2018</p>
-            </div>
-          </div>
-
-        </div>
+        @endforeach
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
