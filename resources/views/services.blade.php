@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('style')
+    <link rel="stylesheet" href="css/style.css">
+@endsection
+
 @section('content')
 <div class="jumbotron1">
     <h1 class="display-4">Hi!</h1>

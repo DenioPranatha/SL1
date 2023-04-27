@@ -1,7 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Models\Profile;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AchievementController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,3 +39,6 @@ Route::get('/services', function(){
         "title" => "Services"
     ]);
 });
+
+Route::get('/{id}', [AchievementController::class, 'index']);
+

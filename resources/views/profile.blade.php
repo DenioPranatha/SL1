@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('style')
+    <link rel="stylesheet" href="css/style.css">
+@endsection
+
 @section('content')
     <div class="blue blue1" data-aos="slide-right" data-aos-duration="1000"></div>
     <div class="blue blue3" data-aos="slide-right" data-aos-duration="2000"></div>
@@ -37,16 +41,26 @@
     <div id="carouselExample" class="carousel">
       <div class="carousel-inner">
         @foreach($cards as $card)
+          <?php $a = ""; ?>
+          @if ($card["category"]=='Competition')
+            <?php $a = "gold"; ?>
+          @elseif ($card["category"]=='Project')
+            <?php $a = "silver"; ?>
+          @elseif ($card["category"]=='Organization')
+            <?php $a = "bronze"; ?>
+          @endif
           <div class="carousel-item">
-            <div class="card h-100">
-              <div class="wrapper">
-                <img src="img/{{ $card["dir"] }}" alt="...">
-              </div>
-              <div class="card-body text-center">
-                <p class="card-text display5">{{ $card["title"] }}</p>
-                <p class="card-text">{{ $card["desc"] }}</p>
-              </div>
-            </div>
+            <a href="/{{ $card["id"] }}" class="text-decoration-none text-dark">
+                <div class="card h-100">
+                    <div class="wrapper">
+                        <img src="img/{{ $card["dir"] }}" alt="...">
+                    </div>
+                    <div class="card-body text-center {{ $a }}">
+                        <p class="card-text display5">{{ $card["title"] }}</p>
+                        <p class="card-text">{{ $card["desc"] }}</p>
+                    </div>
+                </div>
+            </a>
           </div>
         @endforeach
       </div>

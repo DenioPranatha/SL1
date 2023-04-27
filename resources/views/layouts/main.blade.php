@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
+    @yield('style')
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
     </style>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
-      </style>
+    </style>
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Denio's Web</title>
 </head>
@@ -29,4 +29,4 @@
       AOS.init();
     </script>
 </body>
-</html>    
+</html>

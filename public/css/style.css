@@ -1,5 +1,6 @@
 body{
     z-index: 0;
+    overflow-x: hidden;
 }
 
 .nav{
@@ -101,7 +102,7 @@ body{
     font-weight: 150;
     /* font-family: 'Josefin Sans', sans-serif; */
     font-family: 'Tinos', serif;
-    
+
 }
 
 .lead{
@@ -142,6 +143,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding-bottom: 40px;
+
 }
 
 .carousel-inner{
@@ -177,7 +179,7 @@ body{
 
 .org-container img{
     margin: 24px 24px 24px 24px;
-    
+
 }
 
 .bar-cont{
@@ -290,3 +292,14 @@ body{
     font-size: large;
 }
 
+.gold{
+    background-color: gold;
+}
+
+.silver{
+    background-color: silver;
+}
+
+.bronze{
+    background-color: #CD7F32;
+}

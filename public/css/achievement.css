@@ -1,0 +1,117 @@
+body{
+    z-index: 0;
+    overflow-x: hidden;
+}
+.container{
+    margin-top: 35px;
+}
+
+.row1{
+    /* border: 2px solid #000000; */
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-img{
+    height: 360px;
+    width: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-right: 55px;
+}
+
+.headline{
+    font-weight: 150;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-size: 32px;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.subheadline{
+    font-weight: 150;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-size: 28px;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    z-index: 3;
+}
+
+.blc-text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+    width: 50vw;
+
+}
+
+.detail{
+    padding-top: 35px;
+    font-weight: 350;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.jumbotron4{
+    background-color: #C0EEF2;
+    padding: 35px 175px;
+    margin: 80px 0 0 0;
+}
+
+.blue9{
+    width: 125px;
+    height: 125px;
+    z-index: -1;
+    margin-top: 325px;
+    margin-left: 92vw;
+}
+
+.blue10{
+    width: 125px;
+    height: 125px;
+    z-index: 2;
+    margin-top: 165px;
+    margin-left: 40vw;
+}
+
+.blue11{
+    width: 175px;
+    height: 175px;
+    z-index: -1;
+    margin-top: 25px;
+    margin-left: 30vw;
+}
+
+.blue12{
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+    margin-top: 400px;
+    margin-left: 3vw;
+}
+
+.gold{
+    background-color: gold;
+}
+
+.silver{
+    background-color: silver;
+}
+
+.bronze{
+    background-color: #CD7F32;
+}
+
+
+
+
+
