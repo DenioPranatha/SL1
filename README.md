@@ -25,20 +25,26 @@ And here's the instruction on how to run this website in you computer:
     ![tutor 5](https://github.com/DenioPranatha/SL1/blob/master/public/img/tutor5.png)
 9. Type ```php artisan key:generate``` to generate random string for apps encription and decription. It's quite a difficult term but we dont need to understand it that deep.
     ![tutor 6](https://github.com/DenioPranatha/SL1/blob/master/public/img/tutor6.png)
-10. Type ```npm install`` to install the Node Package Manager.
+10. Type ```npm install``` to install the Node Package Manager
     ![tutor 7](https://github.com/DenioPranatha/SL1/blob/master/public/img/tutor7.png)
-11. Type ```npm install bootstrap@v5.2.3``` for our CSS Framweork. It carries some css classes that are neccessary to build the current website.
+11. Type ```npm install bootstrap@v5.2.3``` for our CSS Framweork. It carries some css classes that are neccessary to build the current website
     ![tutor 8](https://github.com/DenioPranatha/SL1/blob/master/public/img/tutor8.png)
 12. Type ```npm run dev``` to prepare the environment
     ![tutor 9](https://github.com/DenioPranatha/SL1/blob/master/public/img/tutor9.png)
-13. Open another command line, go to the projects directory by typing cd <your-directory>, and then type php artisan serve.
+13. Open another command line, go to the projects directory by typing cd <your-directory>, and then type php artisan serve
     ![tutor 10](https://github.com/DenioPranatha/SL1/blob/master/public/img/tutor10.png)
-14. The website can be accessed in the given link.
+14. The website can be accessed in the given link
     
     
 ## Website view
 
 ### Profile
+The profile's directory is at http://127.0.0.1:8000/profile. This section shows:
+1. General overview that has my picture, name, what I do, and my personal motto because it feels nice to have it
+2. Short description to let the viewer knows what my character, my skill, and what I do
+3. Portfolio, consist of 3 categories: My achievement, organizational activity, and past projects. It is showed in carousel and clickable. If you click the card. You will be directed to achievement detail page
+4. Skills, to show my technical ability specifically
+5. Organization involvement shown in logo to keep it simple and attractive 
 ![view 1](https://github.com/DenioPranatha/SL1/blob/master/public/img/screenshot1.png)
 ![view 2](https://github.com/DenioPranatha/SL1/blob/master/public/img/screenshot2.png)
 ![view 3](https://github.com/DenioPranatha/SL1/blob/master/public/img/screenshot3.png)
@@ -46,23 +52,24 @@ And here's the instruction on how to run this website in you computer:
 ![view 5](https://github.com/DenioPranatha/SL1/blob/master/public/img/s5.png)
 ![view 6](https://github.com/DenioPranatha/SL1/blob/master/public/img/s6.png)
 <br>
-### Achievement detail
+### Portfolio detail
+This page contains the portfolio card that was clicked before plus the detailed explanation. All of that is kept simple in the same-toned interface. If the user wants to go back to the profile, I also provide the link to go back in the bottom of the page. 
 ![view 7](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail1.png)
 ![view 8](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail2.png)
 ![view 9](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail3.png)
 <br>
 ### On-progress page
+Now because there are another section in the navbar that I haven't worked on yet(we're just focusing on the profile), I find that it's nice to have a notification page like this to guide the user to our main section.
 ![view 10](https://github.com/DenioPranatha/SL1/blob/master/public/img/wip1.png)
 ![view 11](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail3.png)
+<br>
 
-Profile <br/> <br/>
-
-
-
-The profile's directory is at http://127.0.0.1:8000/profile <br/>
-This website contains my profile. It also contains animation, but it couldn't be captured here so here is the link of the web view video: 
-https://drive.google.com/file/d/1w8JqIdPVWUuWZ7KdiOfiwV6Pl0ftTPeJ/view?usp=sharing <br/>
+The website also contains animation, but it couldn't be captured here so here is the link of the web view video: 
+https://drive.google.com/file/d/1N2LkDjWdESEAadTmC81TobPXSgJm5dYi/view?usp=sharing <br/>
 <br/>
+
+
+There you have it! See you again in the next project ^^
 
 Name: I Putu Denio Pranatha Ramananda<br/>
 Student ID: 2502040493<br/>
