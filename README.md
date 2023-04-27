@@ -51,18 +51,18 @@ The profile's directory is at http://127.0.0.1:8000/profile. This section shows:
 ![view 4](https://github.com/DenioPranatha/SL1/blob/master/public/img/s4.png)
 ![view 5](https://github.com/DenioPranatha/SL1/blob/master/public/img/s5.png)
 ![view 6](https://github.com/DenioPranatha/SL1/blob/master/public/img/s6.png)
-<br>
+<br/>
 ### Portfolio detail
 This page contains the portfolio card that was clicked before plus the detailed explanation. All of that is kept simple in the same-toned interface. If the user wants to go back to the profile, I also provide the link to go back in the bottom of the page. 
 ![view 7](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail1.png)
 ![view 8](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail2.png)
 ![view 9](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail3.png)
-<br>
+<br/>
 ### On-progress page
 Now because there are another section in the navbar that I haven't worked on yet(we're just focusing on the profile), I find that it's nice to have a notification page like this to guide the user to our main section.
 ![view 10](https://github.com/DenioPranatha/SL1/blob/master/public/img/wip1.png)
 ![view 11](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail3.png)
-<br>
+<br/>
 
 The website also contains animation, but it couldn't be captured here so here is the link of the web view video: 
 https://drive.google.com/file/d/1N2LkDjWdESEAadTmC81TobPXSgJm5dYi/view?usp=sharing <br/>
