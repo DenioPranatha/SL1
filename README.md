@@ -11,7 +11,7 @@ There are some technologies that are used in this websites:
 
 And here's the instruction on how to run this website in you computer:
 1. Make sure that you have installed laravel and npm. The installation guide for laravel can be found <a href="https://laravel.com/docs/8.x/installation">here</a>. While the installation guide for NPM can be found <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">here</a>.
-2. Make sure that you have installed Git on your computer and have it connected to your GitHub
+2. Make sure that you have installed Git on your computer and have it connected to your GitHub. the installation guide for Git can be found <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">here</a>
 3. Find my project URL in this page by clicking Code > Copy. Or you could as well copy this link right away: https://github.com/DenioPranatha/SL1.git
 4. Open your command prompt, and change your directory to the folder that you want by typing cd <your-directory>
     ![tutor 1](https://github.com/DenioPranatha/SL1/blob/master/public/img/tutor1.png)
@@ -42,7 +42,7 @@ And here's the instruction on how to run this website in you computer:
 The profile's directory is at http://127.0.0.1:8000/profile. This section shows:
 1. General overview that has my picture, name, what I do, and my personal motto because it feels nice to have it
 2. Short description to let the viewer knows what my character, my skill, and what I do
-3. Portfolio, consist of 3 categories: My achievement, organizational activity, and past projects. It is showed in carousel and clickable. If you click the card. You will be directed to achievement detail page
+3. Portfolio, consist of 3 categories: My achievement, organizational activity, and past projects. It is clickable and showed in carousel. If you click the card. You will be directed to achievement detail page
 4. Skills, to show my technical ability specifically
 5. Organization involvement shown in logo to keep it simple and attractive 
 ![view 1](https://github.com/DenioPranatha/SL1/blob/master/public/img/screenshot1.png)
