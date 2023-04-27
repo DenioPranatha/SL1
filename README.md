@@ -71,6 +71,6 @@ https://drive.google.com/file/d/1N2LkDjWdESEAadTmC81TobPXSgJm5dYi/view?usp=shari
 
 There you have it! See you again in the next project ^^
 
-Name: I Putu Denio Pranatha Ramananda
-Student ID: 2502040493
+Name: I Putu Denio Pranatha Ramananda <br/>
+Student ID: 2502040493 <br/>
 Class: PPTI 12
