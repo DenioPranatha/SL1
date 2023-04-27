@@ -7,11 +7,6 @@
 
 @section('content')
 
-{{-- "dir" => "tgc.jpg",
-"title" => "3rd Place",
-"desc" => "TGC In Action Essay Competition IPB University 2018",
-"category" => "Competition",
-"fullDesc" => "" --}}
 <?php $a = ""; ?>
 @if ($card["category"]=='Competition')
   <?php $a = "gold"; ?>
