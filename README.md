@@ -10,5 +10,8 @@ Profile <br/> <br/>
 The profile's directory is at http://127.0.0.1:8000/profile <br/>
 This website contains my profile. It also contains animation, but it couldn't be captured here so here is the link of the web view video: 
 https://drive.google.com/file/d/1w8JqIdPVWUuWZ7KdiOfiwV6Pl0ftTPeJ/view?usp=sharing <br/>
+<br/>
 
-
+Name: I Putu Denio Pranatha Ramananda<br/>
+Student ID: 2502040493<br/>
+Class: PPTI 12
