@@ -39,7 +39,7 @@ And here's the instruction on how to run this website in you computer:
 ## Website view
 
 ### Profile
-The profile's directory is at http://127.0.0.1:8000/profile. This section shows:
+The profile page is located in /profile of the directory. This section shows:
 1. General overview that has my picture, name, what I do, and my personal motto because it feels nice to have it
 2. Short description to let the viewer knows what my character, my skill, and what I do
 3. Portfolio, consist of 3 categories: My achievement, organizational activity, and past projects. It is clickable and showed in carousel. If you click the card. You will be directed to achievement detail page
