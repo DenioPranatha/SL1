@@ -38,6 +38,9 @@ And here's the instruction on how to run this website in you computer:
     
 ## Website view
 
+Here is the GIF preview of my website that shows the dynamics of the website:
+![view 4](https://github.com/DenioPranatha/SL1/blob/master/public/img/demo.gif)
+
 ### Profile
 The profile page is located in /profile of the directory. This section shows:
 1. General overview that has my picture, name, what I do, and my personal motto because it feels nice to have it
@@ -45,28 +48,16 @@ The profile page is located in /profile of the directory. This section shows:
 3. Portfolio, consist of 3 categories: My achievement, organizational activity, and past projects. It is clickable and showed in carousel. If you click the card. You will be directed to achievement detail page
 4. Skills, to show my technical ability specifically
 5. Organization involvement shown in logo to keep it simple and attractive 
-![view 1](https://github.com/DenioPranatha/SL1/blob/master/public/img/screenshot1.png)
-![view 2](https://github.com/DenioPranatha/SL1/blob/master/public/img/screenshot2.png)
-![view 3](https://github.com/DenioPranatha/SL1/blob/master/public/img/screenshot3.png)
-![view 4](https://github.com/DenioPranatha/SL1/blob/master/public/img/s4.png)
-![view 5](https://github.com/DenioPranatha/SL1/blob/master/public/img/s5.png)
-![view 6](https://github.com/DenioPranatha/SL1/blob/master/public/img/s6.png)
+![view 1](https://github.com/DenioPranatha/SL1/blob/master/public/img/profile.png)
+
 
 ### Portfolio detail
 This page contains the portfolio card that was clicked before plus the detailed explanation. All of that is kept simple in the same-toned interface. If the user wants to go back to the profile, I also provide the link to go back in the bottom of the page. 
-![view 7](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail1.png)
-![view 8](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail2.png)
-![view 9](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail3.png)
+![view 2](https://github.com/DenioPranatha/SL1/blob/master/public/img/portDetail.png)
 
 ### On-progress page
 Now because there are another section in the navbar that I haven't worked on yet(we're just focusing on the profile), I find that it's nice to have a notification page like this to guide the user to our main section.
-![view 10](https://github.com/DenioPranatha/SL1/blob/master/public/img/wip1.png)
-![view 11](https://github.com/DenioPranatha/SL1/blob/master/public/img/detail3.png)
-
-
-The website also contains animation, but it couldn't be captured here so here is the link of the web view video: 
-https://drive.google.com/file/d/1N2LkDjWdESEAadTmC81TobPXSgJm5dYi/view?usp=sharing 
-
+![view 3](https://github.com/DenioPranatha/SL1/blob/master/public/img/maintenance.png)
 
 
 There you have it! See you again in the next project ^^
